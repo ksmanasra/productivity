@@ -17,7 +17,7 @@ def move_mouse():
 
             time.sleep(10)
 
-            if count == 500:
+            if count == 500: #timeout after 2-3 hours
                 pyautogui.keyDown('ctrl')
                 pyautogui.keyDown('command')
                 pyautogui.keyDown('q')
